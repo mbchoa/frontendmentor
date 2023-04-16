@@ -16,11 +16,10 @@ const config = {
     "@ianvs/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss",
   ],
-  tailwindConfig: "./packages/config/tailwind",
+  tailwindConfig: "./packages/tailwind",
   importOrder: [
     "^(react/(.*)$)|^(react$)|^(react-native(.*)$)",
     "^(next/(.*)$)|^(next$)",
-    "^(expo(.*)$)|^(expo$)",
     "<THIRD_PARTY_MODULES>",
     "",
     "^@acme/(.*)$",
