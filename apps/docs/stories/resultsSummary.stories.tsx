@@ -10,17 +10,18 @@ const meta: ComponentMeta<typeof ResultsSummary> = {
   parameters: {
     layout: 'centered',
   },
-  decorators: [
-    (Story) => (
-      <div className="w-[375px]">
-        <Story />
-      </div>
-    ),
-  ]
 }
 
 export default meta;
 
-export const Default: ComponentStory<typeof ResultsSummary> = () => (
-  <ResultsSummary />
+export const Mobile: ComponentStory<typeof ResultsSummary> = () => (
+  <div className="w-[375px]">
+    <ResultsSummary />
+  </div>
+)
+
+export const Desktop: ComponentStory<typeof ResultsSummary> = () => (
+  <div className="w-[1440px]">
+    <ResultsSummary />
+  </div>
 )
