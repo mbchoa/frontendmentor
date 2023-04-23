@@ -11,6 +11,12 @@ const meta: ComponentMeta<typeof Card> = {
   component: Card,
   parameters: {
     layout: 'centered',
+    backgrounds: {
+      default: "qrcode",
+      values: [
+        { name: "qrcode", value: "hsl(212, 45%, 89%)" }
+      ]
+    }
   },
   decorators: [
     (Story) => (
