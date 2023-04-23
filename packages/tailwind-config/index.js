@@ -22,8 +22,8 @@ module.exports = {
           // gradients
           "light-slate-blue": "hsl(252, 100%, 67%)",
           "light-royal-blue": "hsl(241, 81%, 54%)",
-          "violet-blue": "hsla(256, 72%, 46%, 1)",
-          "persian-blue": "hsla(241, 72%, 46%, 0)",
+          "violet-blue": "hsla(256, 72%, 46%)",
+          "persian-blue": "hsla(241, 72%, 46%)",
           // neutral
           "pale-blue": "hsl(221, 100%, 96%)",
           "light-lavender": "hsl(241, 100%, 89%)",
